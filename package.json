@@ -1,0 +1,64 @@
+{
+  "name": "quantalang",
+  "displayName": "QuantaLang",
+  "description": "Syntax highlighting and language support for QuantaLang — The Effects Language.",
+  "version": "0.1.0",
+  "publisher": "HarperZ9",
+  "author": {
+    "name": "Zain Dana Harper"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/HarperZ9/quantalang",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HarperZ9/quantalang-vscode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HarperZ9/quantalang-vscode/issues"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "keywords": [
+    "quantalang",
+    "quanta",
+    "compiler",
+    "effects",
+    "systems programming",
+    "shader"
+  ],
+  "galleryBanner": {
+    "color": "#0b0f1a",
+    "theme": "dark"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "quantalang",
+        "aliases": [
+          "QuantaLang",
+          "quantalang",
+          "quanta"
+        ],
+        "extensions": [
+          ".quanta"
+        ],
+        "configuration": "./language-configuration.json",
+        "icon": {
+          "light": "./images/icon.png",
+          "dark": "./images/icon.png"
+        }
+      }
+    ],
+    "grammars": [
+      {
+        "language": "quantalang",
+        "scopeName": "source.quanta",
+        "path": "./syntaxes/quantalang.tmLanguage.json"
+      }
+    ]
+  }
+}
