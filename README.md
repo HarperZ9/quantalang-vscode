@@ -1,11 +1,11 @@
 # QuantaLang for Visual Studio Code
 
-Syntax highlighting and language support for **[QuantaLang](https://github.com/HarperZ9/quantalang)** — The Effects Language.
+Syntax highlighting and language support for **[QuantaLang](https://github.com/HarperZ9/quantalang)** - The Effects Language.
 
 ## Features
 
 - Syntax highlighting for `.quanta` files
-- Full keyword coverage — 62 language keywords including the effect system (`with`, `effect`, `handle`, `resume`, `perform`) and AI primitives (`ai`, `neural`, `infer`)
+- Full keyword coverage - 62 language keywords including the effect system (`with`, `effect`, `handle`, `resume`, `perform`) and AI primitives (`ai`, `neural`, `infer`)
 - Smart indentation, bracket matching, and auto-closing pairs
 - Comment toggles (`Ctrl+/`)
 - File icon for `.quanta`
