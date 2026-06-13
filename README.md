@@ -1,6 +1,9 @@
 # QuantaLang for Visual Studio Code
 
-Syntax highlighting and language support for **[QuantaLang](https://github.com/HarperZ9/quantalang)** - The Effects Language.
+Syntax highlighting and editor configuration for
+**[QuantaLang](https://github.com/HarperZ9/quantalang)**, an effects-oriented
+compiler project with a verified C path, shader output, and experimental
+backend research.
 
 ## Features
 
@@ -26,7 +29,7 @@ fn main() {
 
 ## Install
 
-From the Marketplace: **View → Extensions → search "QuantaLang"**, click Install.
+From the Marketplace: **View -> Extensions -> search "QuantaLang"**, click Install.
 
 From `.vsix` directly:
 
@@ -42,4 +45,4 @@ code --install-extension quantalang-0.1.0.vsix
 
 ## License
 
-MIT. Copyright © 2026 Zain Dana Harper.
+MIT. Copyright (c) 2026 Zain Dana Harper.
