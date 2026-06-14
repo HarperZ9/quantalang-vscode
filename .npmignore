@@ -2,6 +2,8 @@
 .github
 .vscode
 .warden-safe-cache
+AGENTS.md
+.vscodeignore
 node_modules
 *.log
 *.tgz
