@@ -1,5 +1,14 @@
 # QuantaLang for Visual Studio Code
 
+> Syntax highlighting and editor configuration for the QuantaLang effects-oriented systems language.
+
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![vscode](https://img.shields.io/badge/vscode-%5E1.70.0-blue.svg)
+![version](https://img.shields.io/badge/version-0.1.0-informational.svg)
+[![CI](https://github.com/HarperZ9/quantalang-vscode/actions/workflows/ci.yml/badge.svg)](https://github.com/HarperZ9/quantalang-vscode/actions/workflows/ci.yml)
+![deps: none](https://img.shields.io/badge/deps-none-success.svg)
+[![part of: Quanta ecosystem](https://img.shields.io/badge/part_of-Quanta_ecosystem-00b3a4.svg)](https://github.com/HarperZ9/quanta-universe)
+
 Syntax highlighting and editor configuration for
 **[QuantaLang](https://github.com/HarperZ9/quantalang)**, an effects-oriented
 compiler project with a verified C path, shader output, and experimental
