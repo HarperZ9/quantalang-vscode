@@ -1,10 +1,10 @@
-# AGENTS.md - QuantaLang VS Code Extension
+# AGENTS.md - BuildLang VS Code Extension
 
 ## Scope
 
-This file applies to the `quantalang-vscode` repository. Root workspace
+This file applies to the `buildlang-vscode` repository. Root workspace
 instructions still apply; this repo is a public editor-support package for
-QuantaLang.
+BuildLang.
 
 ## Product Boundary
 
@@ -13,7 +13,7 @@ syntax grammar wiring, language configuration, README, icon assets, changelog,
 and packaged `.vsix` releases.
 
 The compiler, language semantics, backend maturity, and semantic corpus live in
-`HarperZ9/quantalang`. Keep this extension aligned with that repo, but do not
+`HarperZ9/buildlang`. Keep this extension aligned with that repo, but do not
 invent language behavior here.
 
 Publishable surfaces:
@@ -21,7 +21,7 @@ Publishable surfaces:
 - `package.json` - VS Code extension manifest.
 - `language-configuration.json` - brackets, comments, indentation, and editor
   behavior.
-- `syntaxes/quantalang.tmLanguage.json` - syntax highlighting grammar.
+- `syntaxes/buildlang.tmLanguage.json` - syntax highlighting grammar.
 - `images/`, `README.md`, `CHANGELOG.md`, `AUTHORS.md`, `LICENSE`, and reviewed
   `.vsix` packages.
 
@@ -46,7 +46,7 @@ For docs or manifest-boundary changes:
 ```powershell
 python -m json.tool package.json
 python -m json.tool language-configuration.json
-python -m json.tool syntaxes/quantalang.tmLanguage.json
+python -m json.tool syntaxes/buildlang.tmLanguage.json
 git diff --check
 ```
 

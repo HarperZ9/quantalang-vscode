@@ -6,7 +6,7 @@
   `CHANGELOG.md` are present.
 - [ ] Run `python -m json.tool package.json`.
 - [ ] Run `python -m json.tool language-configuration.json`.
-- [ ] Run `python -m json.tool syntaxes/quantalang.tmLanguage.json`.
+- [ ] Run `python -m json.tool syntaxes/buildlang.tmLanguage.json`.
 - [ ] Run `npm pack --dry-run`.
 - [ ] Run `npx --yes @vscode/vsce@3.9.2 package --no-dependencies`.
 - [ ] Run `public-surface-sweeper . --summary`.

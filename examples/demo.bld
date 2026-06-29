@@ -1,11 +1,11 @@
 // Best-effort demo - not runtime-verified by author.
 //
-// A sample QuantaLang source file that exercises the highlighting surface of
+// A sample BuildLang source file that exercises the highlighting surface of
 // this extension: keywords, the effect system, types, literals, strings with
 // interpolation, comments, attributes, macros, and operators.
 //
 // This extension provides editor support only. To run this file, use the
-// `quantac` toolchain from https://github.com/HarperZ9/quantalang.
+// `buildc` toolchain from https://github.com/HarperZ9/buildlang.
 
 // #region effects
 
