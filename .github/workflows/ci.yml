@@ -19,6 +19,6 @@ jobs:
         run: |
           python -m json.tool package.json > /dev/null
           python -m json.tool language-configuration.json > /dev/null
-          python -m json.tool syntaxes/quantalang.tmLanguage.json > /dev/null
+          python -m json.tool syntaxes/buildlang.tmLanguage.json > /dev/null
       - name: Dry-run package
         run: npm pack --dry-run

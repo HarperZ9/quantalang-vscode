@@ -1,69 +1,69 @@
-# QuantaLang for Visual Studio Code
+# BuildLang for Visual Studio Code
 
-> Syntax highlighting and editor configuration for the QuantaLang effects-oriented systems language.
+> Syntax highlighting and editor configuration for the BuildLang effects-oriented systems language.
 
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![vscode](https://img.shields.io/badge/vscode-%5E1.70.0-blue.svg)
 ![version](https://img.shields.io/badge/version-0.1.0-informational.svg)
-[![CI](https://github.com/HarperZ9/quantalang-vscode/actions/workflows/ci.yml/badge.svg)](https://github.com/HarperZ9/quantalang-vscode/actions/workflows/ci.yml)
+[![CI](https://github.com/HarperZ9/buildlang-vscode/actions/workflows/ci.yml/badge.svg)](https://github.com/HarperZ9/buildlang-vscode/actions/workflows/ci.yml)
 ![deps: none](https://img.shields.io/badge/deps-none-success.svg)
-[![part of: Quanta ecosystem](https://img.shields.io/badge/part_of-Quanta_ecosystem-00b3a4.svg)](https://github.com/HarperZ9/quanta-universe)
+[![part of: Build ecosystem](https://img.shields.io/badge/part_of-Build_ecosystem-00b3a4.svg)](https://github.com/HarperZ9/build-universe)
 
 Syntax highlighting and editor configuration for
-**[QuantaLang](https://github.com/HarperZ9/quantalang)**, an effects-oriented
+**[BuildLang](https://github.com/HarperZ9/buildlang)**, an effects-oriented
 compiler project with a verified C path, shader output, and experimental
 backend research.
 
 ## Features
 
-- Syntax highlighting for `.quanta` files
+- Syntax highlighting for `.bld` files
 - Full keyword coverage - 61 language keywords including the effect system (`with`, `effect`, `handle`, `resume`, `perform`) and AI primitives (`ai`, `neural`, `infer`)
 - Smart indentation, bracket matching, and auto-closing pairs
 - Comment toggles (`Ctrl+/`)
-- File icon for `.quanta`
+- File icon for `.bld`
 
-## About QuantaLang
+## About BuildLang
 
-QuantaLang is an effects-oriented systems language with a multi-backend compiler written in Rust. It compiles to:
+BuildLang is an effects-oriented systems language with a multi-backend compiler written in Rust. It compiles to:
 
 - **C** (primary)
 - **HLSL**, **GLSL** (shader output)
 - **SPIR-V**, **LLVM IR**, **WebAssembly**, **x86-64**, **ARM64**
 
-```quanta
+```build
 fn main() ~ Console {
-    println!("Hello from QuantaLang!");
+    println!("Hello from BuildLang!");
 }
 ```
 
 ## Install
 
-From the Marketplace: **View -> Extensions -> search "QuantaLang"**, click Install.
+From the Marketplace: **View -> Extensions -> search "BuildLang"**, click Install.
 
 From `.vsix` directly:
 
 ```bash
-code --install-extension quantalang-0.1.0.vsix
+code --install-extension buildlang-0.1.0.vsix
 ```
 
 ## Usage
 
 Once installed, the extension activates automatically for any file with the
-`.quanta` extension - no commands or configuration required. See
+`.bld` extension - no commands or configuration required. See
 **[USAGE.md](USAGE.md)** for what the extension provides, how to verify it is
 active, and worked examples (including a sample under
 [`examples/`](examples/)).
 
 This extension is editor support only; it provides syntax highlighting and
-language configuration. It does not bundle or run the QuantaLang compiler. To
-build or run `.quanta` programs, use the `quantac` toolchain from the
-[language repo](https://github.com/HarperZ9/quantalang).
+language configuration. It does not bundle or run the BuildLang compiler. To
+build or run `.bld` programs, use the `buildc` toolchain from the
+[language repo](https://github.com/HarperZ9/buildlang).
 
 ## Links
 
-- [Language repo](https://github.com/HarperZ9/quantalang)
-- [Grammar repo](https://github.com/HarperZ9/quantalang-tmLanguage)
-- [Quanta Universe ecosystem](https://github.com/HarperZ9/quanta-universe)
+- [Language repo](https://github.com/HarperZ9/buildlang)
+- [Grammar repo](https://github.com/HarperZ9/buildlang-tmLanguage)
+- [Build Universe ecosystem](https://github.com/HarperZ9/build-universe)
 
 ## License
 

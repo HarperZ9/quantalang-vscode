@@ -21,14 +21,14 @@ jobs:
         run: |
           python -m json.tool package.json > /dev/null
           python -m json.tool language-configuration.json > /dev/null
-          python -m json.tool syntaxes/quantalang.tmLanguage.json > /dev/null
+          python -m json.tool syntaxes/buildlang.tmLanguage.json > /dev/null
       - name: Build package artifacts
         run: |
           npx --yes @vscode/vsce@3.9.2 package --no-dependencies
           npm pack
       - uses: actions/upload-artifact@v5
         with:
-          name: quantalang-vscode-release-artifacts
+          name: buildlang-vscode-release-artifacts
           path: |
-            quantalang-*.tgz
-            quantalang-*.vsix
+            buildlang-*.tgz
+            buildlang-*.vsix

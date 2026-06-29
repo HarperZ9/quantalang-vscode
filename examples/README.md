@@ -2,9 +2,9 @@
 
 Best-effort demo - not runtime-verified by author.
 
-## `demo.quanta`
+## `demo.bld`
 
-A sample QuantaLang source file that exercises the highlighting and
+A sample BuildLang source file that exercises the highlighting and
 editor-configuration surface this extension provides: keywords, the effect
 system (`effect`, `perform`, `handle`, `with`), types, numeric literals,
 strings with `{...}` interpolation, line/block comments, an attribute
@@ -15,9 +15,9 @@ strings with `{...}` interpolation, line/block comments, an attribute
 
 1. Install this extension (see [../README.md](../README.md) or
    [../USAGE.md](../USAGE.md)).
-2. Open `demo.quanta` in VS Code.
-3. Confirm the status-bar language indicator reads **QuantaLang**. If not, use
-   **Change Language Mode** from the Command Palette and select **QuantaLang**.
+2. Open `demo.bld` in VS Code.
+3. Confirm the status-bar language indicator reads **BuildLang**. If not, use
+   **Change Language Mode** from the Command Palette and select **BuildLang**.
 4. Observe that keywords, types, strings, and comments are colorized by your
    active theme, and that the `// #region` block can be folded from the gutter.
 
@@ -25,12 +25,12 @@ strings with `{...}` interpolation, line/block comments, an attribute
 
 - It **does** demonstrate the editor features contributed by this extension.
 - It **does not** compile or run. This extension is editor support only. To
-  execute `.quanta` programs, use the `quantac` toolchain from the
-  [language repo](https://github.com/HarperZ9/quantalang):
+  execute `.bld` programs, use the `buildc` toolchain from the
+  [language repo](https://github.com/HarperZ9/buildlang):
 
   ```bash
-  quantac run demo.quanta
+  buildc run demo.bld
   ```
 
-  Consult that repository's README for the authoritative list of `quantac`
+  Consult that repository's README for the authoritative list of `buildc`
   subcommands and flags.
