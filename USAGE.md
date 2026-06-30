@@ -1,24 +1,24 @@
-# Using the BuildLang VS Code Extension
+# Using the QuantaLang VS Code Extension
 
-This extension provides **editor support** for BuildLang source files: syntax
+This extension provides **editor support** for QuantaLang/BuildLang source files: syntax
 highlighting and language configuration (brackets, comments, auto-closing
 pairs, folding, and a file icon) for files ending in `.bld`.
 
-It is intentionally small. It does **not** include or run the BuildLang
+It is intentionally small. It does **not** include or run the QuantaLang
 compiler. Building and running `.bld` programs is done with the `buildc`
-toolchain from the [language repo](https://github.com/HarperZ9/buildlang).
+toolchain from the [language repo](https://github.com/HarperZ9/quantalang).
 
 ---
 
 ## Install
 
-From the Marketplace: **View -> Extensions**, search **"BuildLang"**, click
+From the Marketplace: **View -> Extensions**, search **"QuantaLang"**, click
 **Install**.
 
 From a packaged `.vsix` (for example the one built in this repo):
 
 ```bash
-code --install-extension buildlang-0.1.0.vsix
+code --install-extension quantalang-0.1.0.vsix
 ```
 
 To build the `.vsix` yourself from a clone of this repository:
@@ -27,7 +27,7 @@ To build the `.vsix` yourself from a clone of this repository:
 npx --yes @vscode/vsce@3.9.2 package --no-dependencies
 ```
 
-This produces `buildlang-<version>.vsix` in the repository root.
+This produces `quantalang-<version>.vsix` in the repository root.
 
 ---
 
@@ -65,19 +65,19 @@ automatic when you open a `.bld` file.
 
 1. Open or create a file named `hello.bld`.
 2. Look at the VS Code status bar (bottom right). The language indicator should
-   read **BuildLang**.
-3. If it does not, click the language indicator and choose **BuildLang** from
+   read **QuantaLang** or **BuildLang**.
+3. If it does not, click the language indicator and choose **QuantaLang** or **BuildLang** from
    the language picker, or run **"Change Language Mode"** from the Command
-   Palette and select **BuildLang**.
+   Palette and select **QuantaLang**.
 
-Once the language mode is BuildLang, keywords, types, strings, and comments
+Once the language mode is active, keywords, types, strings, and comments
 are colorized according to your active color theme.
 
 ---
 
 ## Worked examples
 
-The snippets below use real BuildLang syntax. Highlighting colors depend on
+The snippets below use real `.bld` syntax. Highlighting colors depend on
 your color theme; the descriptions of what gets highlighted are *illustrative*
 (not captured from a specific theme).
 
@@ -87,7 +87,7 @@ your color theme; the descriptions of what gets highlighted are *illustrative*
 
 ```build
 fn main() ~ Console {
-    println!("Hello from BuildLang!");
+    println!("Hello from QuantaLang!");
 }
 ```
 
@@ -97,7 +97,7 @@ Expected highlighting (illustrative):
 - `main` -> function name
 - `Console` -> type
 - `println!` -> macro
-- `"Hello from BuildLang!"` -> string literal
+- `"Hello from QuantaLang!"` -> string literal
 
 ### 2. Types, mutation, and control flow
 
@@ -182,7 +182,7 @@ fn double(x: i32) -> i32 {
 
 This extension does not compile or run code. To execute the examples above,
 use the `buildc` toolchain from the
-[language repo](https://github.com/HarperZ9/buildlang). For example, after
+[language repo](https://github.com/HarperZ9/quantalang). For example, after
 installing that toolchain on your `PATH`:
 
 ```bash

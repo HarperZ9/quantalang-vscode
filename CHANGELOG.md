@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+- Refreshes the public presentation as the QuantaLang VS Code package while
+  keeping `.bld`/BuildLang language-id compatibility.
+- Updates CI and release workflows to current first-party GitHub Actions
+  majors.
+- Adds GitHub funding metadata and a README developer verification section.
+
 ## 0.1.0 - 2026-04-12
 
 Initial release.

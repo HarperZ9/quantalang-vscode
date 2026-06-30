@@ -1,20 +1,20 @@
 {
-  "name": "buildlang",
-  "displayName": "BuildLang",
-  "description": "Syntax highlighting and editor configuration for BuildLang effects-language files.",
+  "name": "quantalang",
+  "displayName": "QuantaLang",
+  "description": "Syntax highlighting and editor configuration for QuantaLang/BuildLang effects-language files.",
   "version": "0.1.0",
   "publisher": "HarperZ9",
   "author": {
     "name": "Zain Dana Harper"
   },
   "license": "MIT",
-  "homepage": "https://github.com/HarperZ9/buildlang",
+  "homepage": "https://github.com/HarperZ9/quantalang",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HarperZ9/buildlang-vscode.git"
+    "url": "https://github.com/HarperZ9/quantalang-vscode.git"
   },
   "bugs": {
-    "url": "https://github.com/HarperZ9/buildlang-vscode/issues"
+    "url": "https://github.com/HarperZ9/quantalang-vscode/issues"
   },
   "engines": {
     "vscode": "^1.70.0"
@@ -39,6 +39,8 @@
       {
         "id": "buildlang",
         "aliases": [
+          "QuantaLang",
+          "quantalang",
           "BuildLang",
           "buildlang",
           "build"

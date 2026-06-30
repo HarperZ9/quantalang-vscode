@@ -9,14 +9,16 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
-      - uses: actions/checkout@v5
-      - uses: actions/setup-node@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
         with:
           node-version: "24"
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
-          python-version: "3.11"
+          python-version: "3.12"
       - name: Validate manifests
         run: |
           python -m json.tool package.json > /dev/null
@@ -28,7 +30,7 @@ jobs:
           npm pack
       - uses: actions/upload-artifact@v5
         with:
-          name: buildlang-vscode-release-artifacts
+          name: quantalang-vscode-release-artifacts
           path: |
-            buildlang-*.tgz
-            buildlang-*.vsix
+            quantalang-*.tgz
+            quantalang-*.vsix
