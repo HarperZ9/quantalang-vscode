@@ -2,8 +2,8 @@
 
 ## Unreleased
 
-- Refreshes the public presentation as the QuantaLang VS Code package while
-  keeping `.bld`/BuildLang language-id compatibility.
+- Refreshes the public presentation as the BuildLang VS Code package for
+  `.bld` files and the `buildc` toolchain.
 - Updates CI and release workflows to current first-party GitHub Actions
   majors.
 - Adds GitHub funding metadata and a README developer verification section.

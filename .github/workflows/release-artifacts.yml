@@ -30,7 +30,7 @@ jobs:
           npm pack
       - uses: actions/upload-artifact@v5
         with:
-          name: quantalang-vscode-release-artifacts
+          name: buildlang-vscode-release-artifacts
           path: |
-            quantalang-*.tgz
-            quantalang-*.vsix
+            buildlang-*.tgz
+            buildlang-*.vsix
