@@ -59,6 +59,10 @@ language configuration. It does not bundle or run the BuildLang compiler. To
 build or run `.bld` programs, use the `buildc` toolchain from the
 [language repo](https://github.com/HarperZ9/buildlang).
 
+The browser evidence example is an editor fixture only. It documents Telos
+workflow vocabulary for highlighting and examples; this package does not compile
+or execute browser automation.
+
 ## Links
 
 - [Language repo](https://github.com/HarperZ9/buildlang)

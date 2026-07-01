@@ -11,6 +11,12 @@ strings with `{...}` interpolation, line/block comments, an attribute
 (`#[inline]`), a macro (`println!`), operators, and `// #region` /
 `// #endregion` folding markers.
 
+## `browser-workflow.bld`
+
+A vocabulary fixture for Telos browser evidence and Index/Forum model-council
+routing. It is editor-only documentation; this extension does not compile or
+execute browser automation.
+
 ### Try it
 
 1. Install this extension (see [../README.md](../README.md) or
