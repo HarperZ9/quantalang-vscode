@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/brand/buildlang-vscode-hero.png" alt="Buildlang Vscode: Vs Code Language Support">
+</p>
+
 # BuildLang for Visual Studio Code
 
 > Syntax highlighting and editor configuration for the BuildLang effects-oriented systems language.
